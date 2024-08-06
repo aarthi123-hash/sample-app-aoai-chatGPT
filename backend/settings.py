@@ -44,7 +44,7 @@ class _UiSettings(BaseSettings):
     title: str = "S2 Analytical Solutions"
     logo: Optional[str] = "/favicon.ico"
     chat_logo: Optional[str] = "/favicon.ico"
-    chat_title: str = "S2 Analytical Solutions Chatbot"
+    chat_title: str = "S2 Analytical Solutions Chatbott"
     chat_description: str = "How can we help you?"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
