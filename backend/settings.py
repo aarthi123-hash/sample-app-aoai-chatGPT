@@ -42,11 +42,17 @@ class _UiSettings(BaseSettings):
     )
 
     title: str = "S2 Analytical Solutions"
+    ##Hardcoded the title 
     logo: Optional[str] = "/favicon.ico"
+    ##s2 logo
     chat_logo: Optional[str] = "/favicon.ico" 
+    ##s2 logo
     chat_title: str = "S2 Analytical Solutions Chatbot"
+    ##Hardcoded the title 
     chat_description: str = "How can we help you?"
+    ##Hardcoded the description 
     favicon: str = "/favicon.ico"
+    ##s2 logo
     show_share_button: bool = True
     show_chat_history_button: bool = True
 
